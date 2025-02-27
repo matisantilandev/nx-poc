@@ -1,0 +1,15 @@
+{
+  "name": "@org/poc-fe",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "poc-fe",
+    "projectType": "application",
+    "sourceRoot": "packages/fe/poc-fe"
+  },
+  "dependencies": {
+    "next": "~15.1.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}

@@ -5,6 +5,27 @@
   "references": [
     {
       "path": "./packages/bff/poc-bff"
+    },
+    {
+      "path": "./packages/poc-fe-e2e"
+    },
+    {
+      "path": "./packages/poc-fe"
+    },
+    {
+      "path": "./packages/fe/poc-fe-e2e"
+    },
+    {
+      "path": "./packages/fe/poc-fe"
+    },
+    {
+      "path": "./packages/fe-e2e"
+    },
+    {
+      "path": "./packages/fe"
+    },
+    {
+      "path": "./packages/fe/poc-fe-e2e"
     }
   ]
 }

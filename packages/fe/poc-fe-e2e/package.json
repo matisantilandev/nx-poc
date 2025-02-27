@@ -1,0 +1,12 @@
+{
+  "name": "poc-fe-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "projectType": "application",
+    "sourceRoot": "packages/fe/poc-fe-e2e/src",
+    "implicitDependencies": [
+      "poc-fe"
+    ]
+  }
+}
