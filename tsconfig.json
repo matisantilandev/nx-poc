@@ -4,7 +4,10 @@
   "files": [],
   "references": [
     {
-      "path": "./libs"
+      "path": "./packages/libs/ui-library"
+    },
+    {
+      "path": "./packages/apps/frontend-app"
     }
   ]
 }
