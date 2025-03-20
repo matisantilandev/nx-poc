@@ -2,12 +2,21 @@
   "name": "@nx-poc/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "clean:workspace-cache": "nx reset",
+    "build:design-system": "nx build ui-library",
+    "build:client": "nx build frontend-app",
+    "build:storybook": "nx build-storybook storybook",
+    "start:client": "nx dev frontend-app",
+    "start:storybook": "nx storybook storybook",
+    "chromatic": "npx chromatic --project-token=chpt_08523bc1d1f7f7b -d=./packages/storybook/storybook-static"
+  },
   "private": true,
   "dependencies": {
     "@storybook/addon-controls": "^8.6.7",
     "@storybook/addon-designs": "^8.2.1",
     "ajv": "8",
+    "chromatic": "^11.27.0",
     "next": "~15.1.4",
     "react": "19.0.0",
     "react-dom": "19.0.0"

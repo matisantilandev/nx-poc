@@ -44,6 +44,6 @@ export const Primary = {
     children: 'Click me',
     color: 'secondary',
     size: 'small',
-    variant: 'solid',
+    variant: 'outline',
   },
 };
