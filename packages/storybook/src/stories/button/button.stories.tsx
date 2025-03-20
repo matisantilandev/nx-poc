@@ -30,6 +30,12 @@ const meta: Meta<typeof Button> = {
     variant: { control: 'select', options: variantOptions },
     children: { control: 'text' },
   },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/VmtdK78etLmg6R23hpj0HH/📖-Gilly-Library?node-id=1-1183',
+    },
+  },
 };
 export default meta;
 

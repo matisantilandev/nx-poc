@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-controls": "^8.6.7",
+    "@storybook/addon-designs": "^8.2.1",
     "ajv": "8",
     "next": "~15.1.4",
     "react": "19.0.0",
