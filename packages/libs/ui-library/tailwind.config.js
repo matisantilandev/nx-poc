@@ -6,7 +6,6 @@ module.exports = {
   presets: [require(`${workspaceRoot}/packages/libs/theme-colors.tailwind.ts`)],
   content: [
     './src/**/*.{ts,tsx,html}',
-    '../../libs/ui-library/src/**/*.{ts,tsx,html}',
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {

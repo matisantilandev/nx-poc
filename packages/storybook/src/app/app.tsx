@@ -1,9 +1,9 @@
-import NxWelcome from './nx-welcome';
+import { Button } from '@gilly/ui-library';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="@nx-poc/storybook" />
+    <div className="mx-10">
+      <Button>Click me</Button>
     </div>
   );
 }

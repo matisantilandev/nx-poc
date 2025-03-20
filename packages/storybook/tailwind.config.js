@@ -5,8 +5,8 @@ const { workspaceRoot } = require('nx/src/devkit-exports');
 module.exports = {
   presets: [require(`${workspaceRoot}/packages/libs/theme-colors.tailwind.ts`)],
   content: [
-    './src/**/*.{ts,tsx,html}',
-    '../../libs/ui-library/src/**/*.{ts,tsx,html}',
+    './src/**/*!(*.stories|*.spec).{ts,tsx,html}',
+    '../libs/**/src/**/*!(*.stories|*.spec).{ts,tsx,html}',
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {

@@ -3,7 +3,13 @@
   "include": [],
   "references": [
     {
+      "path": "../libs/ui-library"
+    },
+    {
       "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.storybook.json"
     }
   ],
   "extends": "../../tsconfig.base.json"
