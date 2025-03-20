@@ -1,5 +1,5 @@
 {
-  "extends": "../../../tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "preserve",
     "noEmit": true,
@@ -27,8 +27,8 @@
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
   "include": [
-    "../../../dist/packages/apps/frontend-app/.next/types/**/*.ts",
-    "../../../packages/apps/frontend-app/.next/types/**/*.ts",
+    "../../dist/packages/apps/frontend-app/.next/types/**/*.ts",
+    "../../packages/apps/frontend-app/.next/types/**/*.ts",
     "next-env.d.ts",
     "src/**/*.js",
     "src/**/*.jsx",
@@ -50,7 +50,7 @@
   ],
   "references": [
     {
-      "path": "../../libs/ui-library"
+      "path": "../libs/ui-library"
     }
   ]
 }

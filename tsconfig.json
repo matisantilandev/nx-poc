@@ -7,7 +7,7 @@
       "path": "./packages/libs/ui-library"
     },
     {
-      "path": "./packages/apps/frontend-app"
+      "path": "./packages/frontend-app"
     },
     {
       "path": "./packages/storybook"
