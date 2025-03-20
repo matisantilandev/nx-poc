@@ -8,6 +8,9 @@
     },
     {
       "path": "./packages/apps/frontend-app"
+    },
+    {
+      "path": "./packages/storybook"
     }
   ]
 }
